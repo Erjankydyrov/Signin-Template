@@ -82,11 +82,25 @@ input{
     line-height: 1.5;
     color: #212529;
     background-color: rgb(255, 255, 255);
-    background-clip: padding-box;
     border: 1px solid #ced4da;
-    appearance: none;
     border-radius: 4px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+.form-control:hover{
+    transition-property: border, border-radius;
+    outline: 5px solid  #0d6dfd5b;
+    border-radius: 5px;
+    transition-delay: 0s, 0s;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+}
+.form-control:active{
+    transition-property: border, border-radius;
+    outline: 5px solid  #0d6dfd5b;
+    border-radius: 5px;
+    transition-delay: 0s, 0s;
+    transition-duration: 1s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out;
 }
 .form-signin .form-control{
     box-sizing: border-box;
@@ -123,6 +137,9 @@ input{
     line-height: 1.5;
     text-align: center;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn:hover{
+    background-color: #1858b9;
 }
 .width-100{
     width: 100%;
