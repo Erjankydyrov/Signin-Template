@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -86,4 +86,20 @@ input{
     height: auto;
     padding: 10px;
     font-size: 16px;
+}
+
+.checkbox{
+    color: rgb(33, 37, 41);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.cont-checkbox{
+    justify-content: center;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.check-prob{
+    margin-right: 4px;
 }
